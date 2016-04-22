@@ -1,0 +1,63 @@
+ .back{
+
+ 	 background-color: black;
+    background: url('../img/Pin-Map.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+ }
+
+.img-size{
+    height: 70px;
+}
+
+.paragraph{
+
+	font-size: 30px;
+ font-family:  Georgia, Serif;
+
+}
+
+.subparagraph{
+    font-size: 18px;
+    font-family:  Georgia, Serif;
+}
+
+.title-menu-landing{
+
+	font-size: 38px;
+	text-align: center;
+}
+
+.searchbox{
+width: 30%;
+height: 12%;
+
+    border: 1px solid #ccc;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.brand{
+	margin-left: 15%;
+}
+
+.circular {
+	width: 100px;
+	height: 100px;
+	
+	
+	}
+
+.question-title{
+	font-size: 30px
+}
+
+.question{
+	font-size: 20px;
+	color: black;
+}
