@@ -43,7 +43,7 @@ height: 12%;
 }
 
 .brand{
-	margin-left: 15%;
+	margin-left: 3%;
 }
 
 .circular {
@@ -73,8 +73,9 @@ height: 12%;
     }
 
 .flip-container, .front, .back {
-    width: 300px;
+    width: 100%;
     height: 350px;
+   
 }
 
 /* flip speed goes here */
@@ -135,4 +136,63 @@ height: 12%;
 
 .end-landing{
     border: 1px solid grey;
+}
+
+
+.fixed {   width: 10% ;background:orange; }
+.scrollit { height:400px;  background:lightgray; }
+
+.block{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    border-bottom: 1px solid grey;
+  
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.header-secondary{
+
+    display: table;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+}
+
+.completed-work{
+    color: black;
+}
+
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.premium{
+    color: green;
+    position: relative;
+    float: right;
+    border: 2px inset  green;
+    padding: 5px 5px 5px 5px;
+}
+
+.remark:hover ~ .block {
+    border: 2px solid red;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+  cursor:default;
 }

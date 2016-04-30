@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 60%;
+      }
+    </style>
+  </head>
+  <body>
+  	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Dutymap</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Inicio</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Cómo funciona</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Servicios</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Experiencias</a>
+            </li>
+
+             <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Preguntas frecuentes</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header id="top" class="header-secondary">
+
+           <h1 class="brand"> <p>Duty<span class="white">Map</span></p> </h1>
+           <h2 class="text-center bg-primary paragraph noselect">Profesores particulares en La Matanza</h2>
+           
+   </header>
+    <div id="map"></div>
+    <br><br>
+
+     <section>
+     	 	<h2 class="text-center paragraph noselect">Los más destacados</h2>
+           	<div class="container-fluid">   		
+           	
+           		  <div class="col-lg-4">
+                      <div class="flip-container padding" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="row">
+                              <div class="front">
+                                   <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
+                                    <h2> <p class="text-center">Franco Montán</p></h2>
+                                    <hr>
+                                     <h3><p class="text-center">tipo de servicio</p> </h3>
+                                     <h4><p class="text-center">frase</p></h4>
+                                     <p class="text-right"> <img class="marker" src="https://cdn2.iconfinder.com/data/icons/snipicons/500/map-marker-128.png" alt="">Morón</p>
+
+                                <!-- front content -->
+                            </div>
+
+        
+                             <div class="back">
+                               <div class="text-center">
+                               <button class="btn btn-info profile">Ver perfil</button>
+                                </div>
+                
+                             <hr>
+                             <h3 class="text-center">Descripción del trabajo</h3>
+                
+                              <br>
+                              <br>
+                              <br>
+                                <div>
+                                    <h3><p class="text-center">Trabajos concretados</p> </h3>
+                                    <h2 class="text-center">36</h2>
+                                        <div class="text-center">
+                                            <button class="btn btn-info hire">Contactar</button>
+
+                                        </div>
+                                    <!-- back content -->
+                                </div>
+                            </div>
+
+                         </div>
+    
+                         </div>
+                     </div>
+
+                    
+                </div>
+                
+                <div class="col-md-4">
+
+                     
+                      <div class="flip-container padding" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+        
+                            <div class="row">
+                              <div class="front">
+                                   <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
+                                    <h2> <p class="text-center">Franco Montán</p></h2>
+                                    <hr>
+                                     <h3><p class="text-center">tipo de servicio</p> </h3>
+                                     <h4><p class="text-center">frase</p></h4>
+                                     <p class="text-right"> <img class="marker" src="https://cdn2.iconfinder.com/data/icons/snipicons/500/map-marker-128.png" alt="">Morón</p>
+
+                                <!-- front content -->
+                            </div>
+
+        
+                             <div class="back">
+                               <div class="text-center">
+                               <button class="btn btn-info profile">Ver perfil</button>
+                                </div>
+                
+                             <hr>
+                             <h3 class="text-center">Descripción del trabajo</h3>
+                
+                              <br>
+                              <br>
+                              <br>
+                                <div>
+                                    <h3><p class="text-center">Trabajos concretados</p> </h3>
+                                    <h2 class="text-center">36</h2>
+                                        <div class="text-center">
+                                            <button class="btn btn-info hire">Contactar</button>
+
+                                        </div>
+                                    <!-- back content -->
+                                </div>
+                            </div>
+
+                         </div>
+    
+                         </div>
+                     </div>
+         
+                </div>
+               
+                <div class="col-md-4">
+
+                      <div class="flip-container padding" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+        
+                            <div class="row">
+                              <div class="front">
+                                   <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
+                                    <h2> <p class="text-center">Franco Montán</p></h2>
+                                    <hr>
+                                     <h3><p class="text-center">tipo de servicio</p> </h3>
+                                     <h4><p class="text-center">frase</p></h4>
+                                     <p class="text-right"> <img class="marker" src="https://cdn2.iconfinder.com/data/icons/snipicons/500/map-marker-128.png" alt="">Morón</p>
+
+                                <!-- front content -->
+                            </div>
+
+        
+                             <div class="back">
+                               <div class="text-center">
+                               <button class="btn btn-info profile">Ver perfil</button>
+                                </div>
+                
+                             <hr>
+                             <h3 class="text-center">Descripción del trabajo</h3>
+                
+                              <br>
+                              <br>
+                              <br>
+                                <div>
+                                    <h3><p class="text-center">Trabajos concretados</p> </h3>
+                                    <h2 class="text-center">36</h2>
+                                        <div class="text-center">
+                                            <button class="btn btn-info hire">Contactar</button>
+
+                                        </div>
+                                    <!-- back content -->
+                                </div>
+                            </div>
+
+                         </div>
+    
+                         </div>
+                     </div>
+                </div>
+                
+              
+            </div>
+            <hr>
+  
+           		<div class="container-fluid">
+
+           			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+				        <p>nav filtros</p>
+           			</div>
+
+           			<div class="col-xs-10 col-md-10 block ">
+           				<div class="col-xs-3 col-md-2">
+           				      <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
+           				</div>
+           				<div class="col-xs-6 col-md-7">
+           					
+           			 		<h3 class="provider-name text-info">Franco Montán</h3>
+           			 		<h4 class="premium noselect">Premium</h4>
+           			 		<p class=""> <img class="marker" src="https://cdn2.iconfinder.com/data/icons/snipicons/500/map-marker-128.png" alt="">La Matanza</p>
+           					<h4>Profesor particular de matemática</h4>
+           					<p>Me dedico a enseñar matemática de primaria y secundaria</p>
+           				</div>
+
+           				<div class="col-xs-3 col-md-3">
+           					<p>Valoración</p>
+           					<p>Trabajos concretados: <span class="completed-work">32</span></p>
+           					<p>$100 /hr</p>
+           					
+           						<button class="btn btn-info">Contactar</button>	
+           						<button class="btn btn-info">Ver perfil</button>
+           					
+           				</div>         
+           			</div>
+           			
+           		<div class="col-xs-10 col-md-10 block ">
+           				<div class="col-xs-3 col-md-2">
+           				      <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
+           				</div>
+           			<div class="col-xs-6 col-md-7">
+           					
+           				<h3 class="text-info">Franco Montán</h3>
+           				<p class=""> <img class="marker" src="https://cdn2.iconfinder.com/data/icons/snipicons/500/map-marker-128.png" alt="">La Matanza</p>
+           				<h4>Profesor particular de matemática</h4>
+           				<p>Me dedico a enseñar matemática de primaria y secundaria</p>
+           			</div>
+
+           			<div class="col-xs-3 col-md-3 pull-right">
+           				<p>Valoración</p>
+           				<p>Trabajos concretados: <span class="completed-work">32</span></p>
+           				<p>$100 /hr</p>
+           				<button class="btn btn-info remark ">Contactar</button>
+           				<button class="btn btn-info remark">Ver perfil</button>
+           			</div>
+           		</div>
+
+           		<div class="col-xs-10 col-md-10 block ">
+           			<div class="col-xs-3 col-md-2">
+           				    <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
+           			</div>
+
+           			<div class="col-xs-6 col-md-7">	
+           				<h3 class="text-info">Franco Montán</h3>
+           				<p class=""> <img class="marker" src="https://cdn2.iconfinder.com/data/icons/snipicons/500/map-marker-128.png" alt="">La Matanza</p>
+           				<h4>Profesor particular de matemática</h4>
+           				<p>Me dedico a enseñar matemática de primaria y secundaria</p>
+           			</div>
+
+           			<div class="col-xs-3 col-md-3">
+           				<p>Valoración</p>
+           				<p>Trabajos concretados: <span class="completed-work">32</span></p>
+           				<p>$100 /hr</p>
+           				<button class="btn btn-info">Contactar</button>
+           				<button class="btn btn-info">Ver perfil</button>
+           		    </div>
+           		</div>
+           	</div>
+           </section>
+
+           <div class="container-fluid">
+           		<div class="row">
+           			<div class="col-md-12 text-center">
+           				
+						  <ul class="pagination pagination-lg ">
+  							<li class="active"><a href="#">1</a></li>
+  							<li><a href="#">2</a></li>
+  							<li><a href="#">3</a></li>
+  							<li><a href="#">4</a></li>
+  							<li><a href="#">5</a></li>
+						   </ul>
+           			</div>	   
+				</div>
+
+           </div>
+
+         
+
+    <script>
+
+window.onload=initMap;
+function initMap() {
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 6
+  });
+  var infoWindow = new google.maps.InfoWindow({map: map});
+
+  // Try HTML5 geolocation.
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      infoWindow.setContent('Location found.');
+      map.setCenter(pos);
+    }, function() {
+      handleLocationError(true, infoWindow, map.getCenter());
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleLocationError(false, infoWindow, map.getCenter());
+  }
+}
+
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+  infoWindow.setPosition(pos);
+  infoWindow.setContent(browserHasGeolocation ?
+                        'Error: The Geolocation service failed.' :
+                        'Error: Your browser doesn\'t support geolocation.');
+}
+
+    </script>
+     <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+      <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+  </body>
+</html>
