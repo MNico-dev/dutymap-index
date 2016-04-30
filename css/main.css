@@ -1,3 +1,18 @@
+ .logo-color-bg{
+    background-color: #336699;
+    color: white;
+
+ }
+
+.logo-color{
+    color: #336699;
+}
+ .logo{
+    width: 200px;
+    height: 100px;
+ }
+
+
  .background{
 
  	 background-color: black;
@@ -195,4 +210,12 @@ height: 12%;
   -ms-user-select: none;       /* Internet Explorer/Edge */
   user-select: none;           /* Non-prefixed version, currently not supported by any browser */
   cursor:default;
+}
+
+.provider-name{
+    color:#336699;
+}
+
+.pagination>.active>a{
+     background-color:#336699;
 }
