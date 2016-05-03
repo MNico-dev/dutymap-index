@@ -1,3 +1,9 @@
+  html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
  .logo-color-bg{
     background-color: #336699;
     color: white;
@@ -244,3 +250,49 @@ form{
     margin-top: 50px;
         margin-bottom: 50px
 }
+
+.service-icon{
+    width: 50px;
+    height: 55px;
+    position: relative;
+    margin-bottom: 19px;
+}
+
+
+.button-header{
+    margin-top: 70px;
+}
+
+#map{
+    height: 60%;
+}
+
+@media only screen and (min-width: 990px){
+    .question-center{
+    margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 761px){
+
+    .normal-screen >hr{
+        border: 1px solid white
+
+    }
+    .minimal-screen{
+        border: none;
+    }
+}
+
+@media only screen and (max-width:760px){
+
+     .normal-screen{
+        border: none;
+    }
+
+    .minimal-screen{
+        border: 1px solid white;
+                
+    }
+}
+

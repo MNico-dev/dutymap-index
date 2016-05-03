@@ -53,11 +53,11 @@
                 <a href="#services" onclick = $("#menu-close").click(); >Servicios</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Experiencias</a>
+                <a href="#experience" onclick = $("#menu-close").click(); >Experiencias</a>
             </li>
 
              <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Preguntas frecuentes</a>
+                <a href="#question" onclick = $("#menu-close").click(); >Preguntas frecuentes</a>
             </li>
             <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contacto</a>
@@ -68,8 +68,7 @@
 
     <!-- Header -->
     <header id="top" class="header background">
-
-         
+   
         <img class="logo" src="img/Logo-DutyMap-original.png" alt="logo">
         <div class="text-vertical-center">
 
@@ -78,17 +77,15 @@
             <input class="searchbox" type="text" placeholder="Buscar servicios">
             <button type="" class="btn btn-info logo-color-bg">Buscar</button>
            <a href="#services"><button class="btn btn-info logo-color-bg">Buscar por categorías</button></a> 
-            <br>
-            <br>
-            <br>
-            <br>
+           <p class="button-header">
             <a href="#about" class="btn btn-dark btn-lg">Cómo funciona</a>
             <a href="#about" class="btn btn-dark btn-lg">Registrarme</a>
-
+           </p>
+           
         </div>
     </header>
 
-    <!-- About -->
+    <!-- How it works -->
     <section id="about" class="about">
         <div class="container">
             <div class="row">
@@ -117,68 +114,85 @@
     </section>
 
     <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    
     <section id="services" class="services logo-color-bg">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Tipos de servicios(slider automático o mostrar áreas)</h2>
+                    <h2>Servicios por categoría</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <img class="service-icon"src="img/area-aesthetics.png" alt="">
                             </span>
                                 <h4>
-                                    <strong>Contador</strong>
+                                    <strong>Estética</strong>
                                 </h4>
-                                <p>123 contadores estan cercanos a tu zona!.</p>
+                                <p>132 peluqueros, cosmetólogos, cosmiatras y mas están cercanos a tu zona!.</p>
                                 <a href="#" class="btn btn-light">Buscar</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                               <img class="service-icon"src="img/area-home.png" alt="">
                             </span>
                                 <h4>
-                                    <strong>Gasista</strong>
+                                    <strong>Hogar</strong>
                                 </h4>
-                                <p>70 gasistas están cercanos a tu zona!</p>
+                                  <p>132 gasistas, electricistas, carpinteros y más estan cercanos a tu zona!.</p>
                                 <a href="#" class="btn btn-light">Buscar</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                <img class="service-icon"src="img/area-education.png" alt="">
                             </span>
                                 <h4>
-                                    <strong>Podólogo</strong>
+                                    <strong>Educación</strong>
                                 </h4>
-                                <p>17 podólogos están cercanos a tu zona!</p>
+                                <p>123 profesores particulares de matemática, física y más estan cercanos</p> 
                                 <a href="#" class="btn btn-light">Buscar</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                               
+                                <img class="service-icon"src="img/area-healthy.png" alt="">
                             </span>
                                 <h4>
                                     <strong>Salud</strong>
                                 </h4>
-                                <p>208 podólogos, kinesiólogos, psicólogos y muchos más estan cercanos a tu zona! </p>
+                                <p>208 podólogos, kinesiólogos, psicólogos y más estan cercanos a tu zona! </p>
                                 <a href="#" class="btn btn-light">Buscar</a>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
+
+                            <div class="col-md-3 col-sm-6 col-md-offset-5 col-sm-offset-3">
+
+                                <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                 <img class="service-icon"src="img/area-more.png" alt="">
+                            </span>
+                                <h4>
+                                    <strong>Otros servicios</strong>
+                                </h4>
+                                <p>132 mecánicos, contadores, abogados y mas están cercanos a tu zona!.</p>
+                                <a href="#" class="btn btn-light">Buscar</a>
+                            </div>
+
+                            </div>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -187,8 +201,8 @@
         <!-- /.container -->
     </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <!-- Experience -->
+    <section id="experience" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -210,8 +224,7 @@
                             <div class="col-md-4">
                                 <p class="experience-title text-center">Muy buena</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum sequi, vitae, facere accusantium reiciendis laudantium itaque id eligendi quasi. Nulla eum, aspernatur provident perspiciatis. Atque ipsa architecto nam, nisi laborum.</p>
-                                <p class="text-right experience-name">Laura Rodríguez</p>
-                                
+                                <p class="text-right experience-name">Laura Rodríguez</p>       
                             </div>
                         </div>
                         
@@ -227,19 +240,20 @@
         <!-- /.container -->
     </section>
 
-    <section class="logo-color-bg" id="questions">
+ <!-- Questions -->
+    <section class="logo-color-bg" id="question">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-left">
                     <div class="row">
                         <h2><p class="text-center">Preguntas frecuentes</p> </h2>
                     </div>
-                    <div class="col-md-6">
-                           <h3><p class="text-centers">¿Qué servicios ofrecemos?</p></h3>
+                    <div class="col-sm-6 col-md-6">
+                           <h3><p class="text-center">¿Qué servicios ofrecemos?</p></h3>
                            <br>
                            <p>Los servicios que ofrecemos son...</p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6 col-md-6">
                             <h3><p class="text-center">¿Cómo contacto y contrato un servicio?</p></h3>
                             <br>
                             <p>Para contactar y contratar un servicio tenes que...</p>
@@ -249,223 +263,26 @@
                 </div>
                  <div class="col-lg-10 col-lg-offset-1 text-left">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6 col-md-6">
                             <h3><p class="text-center">Pregunta</p></h3>
                             <br>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt labore, beatae assumenda quae rem corporis, laudantium in odit blanditiis quasi laborum consectetur obcaecati, dolore harum minus quidem saepe culpa. Quis!</p>
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6 col-md-6">
                             <h3><p class="text-center">Pregunta</p></h3>
                             <br>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi sit natus pariatur consequuntur labore magnam aperiam non iusto itaque cumque iste ipsum, sed molestias! Placeat quia velit dolor doloremque?</p>
                         </div>
-
-
                     </div>
-
                  </div>
             </div>
         </div>
-
     </section>
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-center">Publicidad(slider en cada sección de servicio)</h2>
-                </div>
-            </div>
-                <div class="row">
-                    <div class="col-md-12">
+ <!--Contact -->
 
-                  <div class="col-md-4">
-                      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                        <div class="flipper">
-        
-                            <div class="row">
-                              <div class="front">
-                                   <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
-                                    <h2> <p class="text-center">Chano Charpentier</p></h2>
-                                    <hr>
-                                     <h3><p class="text-center">tipo de servicio</p> </h3>
-                                     <h4><p class="text-center">frase</p></h4>
-                                     <p class="text-right"> <img class="marker" src="img/map-marker.png" alt="localidad">Morón</p>
-
-                                <!-- front content -->
-                            </div>
-
-        
-                             <div class="back">
-                               <div class="text-center">
-                               <button class="btn btn-info profile">Ver perfil</button>
-                                </div>
-                
-                             <hr>
-                             <h3 class="text-center">Descripción del trabajo</h3>
-                
-                              <br>
-                              <br>
-                              <br>
-                                <div>
-                                    <h3><p class="text-center">Trabajos concretados</p> </h3>
-                                    <h2 class="text-center">36</h2>
-                                        <div class="text-center">
-                                            <button class="btn btn-info hire">Contratar</button>
-
-                                        </div>
-                                    <!-- back content -->
-                                </div>
-                            </div>
-
-                         </div>
-    
-                         </div>
-                     </div>
-
-                    
-                </div>
-                <div class="col-md-4">
-
-                     
-                      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                        <div class="flipper">
-        
-                            <div class="row">
-                              <div class="front">
-                                   <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
-                                    <h2> <p class="text-center">Chano Charpentier</p></h2>
-                                    <hr>
-                                     <h3><p class="text-center">tipo de servicio</p> </h3>
-                                     <h4><p class="text-center">frase</p></h4>
-                                     <p class="text-right"> <img class="marker" src="img/map-marker.png" alt="localidad">Morón</p>
-
-                                <!-- front content -->
-                            </div>
-
-        
-                             <div class="back">
-                               <div class="text-center">
-                               <button class="btn btn-info profile">Ver perfil</button>
-                                </div>
-                
-                             <hr>
-                             <h3 class="text-center">Descripción del trabajo</h3>
-                
-                              <br>
-                              <br>
-                              <br>
-                                <div>
-                                    <h3><p class="text-center">Trabajos concretados</p> </h3>
-                                    <h2 class="text-center">36</h2>
-                                        <div class="text-center">
-                                            <button class="btn btn-info hire">Contratar</button>
-
-                                        </div>
-                                    <!-- back content -->
-                                </div>
-                            </div>
-
-                         </div>
-    
-                         </div>
-                     </div>
-
-            
-
-
-                    
-                </div>
-                
-                <div class="col-md-4">
-
-                      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                        <div class="flipper">
-        
-                            <div class="row">
-                              <div class="front">
-                                   <p class="text-center"><img class="img-circle" src="https://pbs.twimg.com/profile_images/600061604319887360/PqDUDBEt.jpg" alt=""> </p>
-                                    <h2> <p class="text-center">Chano Charpentier</p></h2>
-                                    <hr>
-                                     <h3><p class="text-center">tipo de servicio</p> </h3>
-                                     <h4><p class="text-center">frase</p></h4>
-                                     <p class="text-right"> <img class="marker" src="img/map-marker.png" alt="localidad">Morón</p>
-
-                                <!-- front content -->
-                            </div>
-
-        
-                             <div class="back">
-                               <div class="text-center">
-                               <button class="btn btn-info profile">Ver perfil</button>
-                                </div>
-                
-                             <hr>
-                             <h3 class="text-center">Descripción del trabajo</h3>
-                
-                              <br>
-                              <br>
-                              <br>
-                                <div>
-                                    <h3><p class="text-center">Trabajos concretados</p> </h3>
-                                    <h2 class="text-center">36</h2>
-                                        <div class="text-center">
-                                            <button class="btn btn-info hire">Contratar</button>
-
-                                        </div>
-                                    <!-- back content -->
-                                </div>
-                            </div>
-
-                         </div>
-    
-                         </div>
-                     </div>
-
-                    
-                
-                    
-                </div>
-                
-                
-
-            </div>
-    </div>
-        </div>
-        
-
-    </section>
-
-    <section class="statistics">
-    <div class="container-fluid">
-        
-    
-        <div class="row logo-color-bg" >
-            <div class="col-md-12">
-                <div class="col-md-4 text-center">
-                    <h3>Trabajos concretados</h3>
-                    <hr>
-                    <h1 class="text-center">545</h1>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>Proveedores registrados</h3>
-                    <hr>
-                    <h1 class="text-center">57</h1>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>Usuarios registrados</h3>
-                    <hr>
-                    <h1>512</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    </section>
-
-    <section class="contact">
+    <section id="contact">
         <div class="container">
             <div class="row ">
                 <h2 class="text-center">¿Alguna duda?¡Preguntanos!</h2>
@@ -491,17 +308,40 @@
  
                   </div>
 
-                  <div class="col-md-2">
-                         <p class="text-center"><img src="img/question-mark.png" alt=""> </p>
+                  <div class="col-md-2 ">
+                         <p class="text-center question-center"><img src="img/question-mark.png" alt=""> </p>
                     </div>
-
-            </div>
-           
+            </div>     
         </div>
+    </section>  
 
-    </section>
-
-         
+       <section class="statistics">
+            <div class="container-fluid">
+                <div class="row logo-color-bg" >
+                    <div class="col-md-12">
+                        <div class=" col-sm-4 col-md-4 text-center statistics-border">
+                            <h3>Trabajos concretados</h3>
+                            <hr class="normal-screen">
+                            <h1 class="text-center">545</h1>
+                            <hr class="minimal-screen">
+                            
+                        </div>
+                        <div class=" col-sm-4 col-md-4 text-center">
+                            <h3>Proveedores registrados</h3>
+                            <hr class="normal-screen">
+                            <h1 class="text-center">57</h1>
+                            <hr class="minimal-screen">
+                           
+                        </div>
+                        <div class=" col-sm-4 col-md-4 text-center">
+                            <h3>Usuarios registrados</h3>
+                            <hr class="normal-screen">
+                            <h1>512</h1>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>   
  <!-->
  <hr class="end-landing">
  </!-->
